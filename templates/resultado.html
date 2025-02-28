@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado</title>
+</head>
+<body>
+    <h1>Código de Barras Generado</h1>
+    <p>Carnet: {{ carnet }}</p>
+    <img src="/static/barcodes/{{ barcode_filename }}.png" alt="Código de Barras">
+    <p>
+    /static/barcodes/{{ barcode_filename }}.png
+    </p>
+    <br>
+    <a href="/">Generar otro código</a>
+</body>
+</html>
